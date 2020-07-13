@@ -1,0 +1,53 @@
+
+# Created by https://www.toptal.com/developers/gitignore/api/scala,sbt,metals,playframework
+# Edit at https://www.toptal.com/developers/gitignore?templates=scala,sbt,metals,playframework
+
+### Metals ###
+.metals/
+.bloop/
+project/metals.sbt
+
+### PlayFramework ###
+# Ignore Play! working directory #
+bin/
+/db
+.eclipse
+/lib/
+/logs/
+/modules
+/project/project
+/project/target
+/target
+tmp/
+test-result
+server.pid
+*.eml
+/dist/
+.cache
+
+### SBT ###
+# Simple Build Tool
+# http://www.scala-sbt.org/release/docs/Getting-Started/Directories.html#configuring-version-control
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.lib/
+
+### Scala ###
+*.class
+*.log
+
+# End of https://www.toptal.com/developers/gitignore/api/scala,sbt,metals,playframework
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID

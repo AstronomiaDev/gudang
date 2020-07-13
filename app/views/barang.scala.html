@@ -1,0 +1,10 @@
+@(barangBarang: List[Barang])
+
+@main("Barang") {
+<dl class="barang-barang">
+  @for(barang <- barangBarang) {
+  <dt>@barang.kode</dt>
+  <dd>@barang.status</dd>
+  }
+</dl>
+}
